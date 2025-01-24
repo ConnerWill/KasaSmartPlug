@@ -78,7 +78,7 @@ int KASAUtil::ScanDevices(int timeoutMs)
     const char *model;
     int relay_state;
 
-    StaticJsonDocument<512> doc;
+    JsonDocument doc;
 
     len = strlen(get_kasa_info);
 
